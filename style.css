@@ -1,0 +1,18 @@
+body{
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+span{
+    color: aqua;
+    font-size: small;
+}
+
+a:hover{
+    color: aqua;
+}
+
+p.selector::before,
+p.selector::after{
+    content: '"';
+}
